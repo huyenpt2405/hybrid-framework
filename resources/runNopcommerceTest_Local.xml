@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce">
+  <listeners>
+  	<listener class-name="commons.MethodListener" />
+  	<!-- 
+  	<listener class-name="reportConfig.ExtentTestListener" />
+  	-->
+  	<!--
+  	<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="reportConfig.ReportNGListener"/>
+  	-->
+
+  </listeners>
+  
+  <parameter name="env" value="dev" />
+  <test name="Run on Firefox">
+  	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <!--<class name="com.nopcommerce.commons.Common_02_Register_Cookie"/>-->
+      <class name="com.nopcommerce.grid.Level_23_Local"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

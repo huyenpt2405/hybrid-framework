@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce]">
+  <parameter name="env" value="dev"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="port" value="5555"/>
+    <parameter name="browser" value="edge"/>
+    <parameter name="ipAddress" value="192.168.88.128"/>
+    <parameter name="osName" value="windows"/>
+    <classes>
+      <class name="com.nopcommerce.grid.Level_23_Grid">
+        <methods>
+          <include name="User_01_Register"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.grid.Level_23_Grid -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [NopCommerce] -->

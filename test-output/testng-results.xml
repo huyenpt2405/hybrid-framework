@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T03:43:40Z" name="NopCommerce" finished-at="2023-11-06T03:43:53Z" duration-ms="12690">
+  <suite started-at="2023-11-06T04:58:51Z" name="NopCommerce" finished-at="2023-11-06T04:59:12Z" duration-ms="20411">
     <groups>
     </groups>
-    <test started-at="2023-11-06T03:43:40Z" name="Run on Firefox" finished-at="2023-11-06T03:43:53Z" duration-ms="12690">
-      <class name="com.nopcommerce.grid.Level_23_Local">
-        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.grid.Level_23_Local@475835b1]" started-at="2023-11-06T03:43:40Z" name="beforeClass" finished-at="2023-11-06T03:43:47Z" duration-ms="7500" status="PASS">
+    <test started-at="2023-11-06T04:58:51Z" name="Run on Firefox" finished-at="2023-11-06T04:59:12Z" duration-ms="20411">
+      <class name="com.nopcommerce.grid.Level_23_Grid">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.grid.Level_23_Grid@475835b1]" started-at="2023-11-06T04:58:51Z" name="beforeClass" finished-at="2023-11-06T04:59:05Z" duration-ms="13080" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -19,26 +19,41 @@
                 <![CDATA[dev]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[192.168.88.128]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[5555]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="User_01_Register(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.grid.Level_23_Local@475835b1]" started-at="2023-11-06T03:43:47Z" name="User_01_Register" finished-at="2023-11-06T03:43:51Z" duration-ms="3556" status="PASS">
+        <test-method signature="User_01_Register(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.grid.Level_23_Grid@475835b1]" started-at="2023-11-06T04:59:05Z" name="User_01_Register" finished-at="2023-11-06T04:59:09Z" duration-ms="4889" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.nopcommerce.grid.Level_23_Local.User_01_Register(java.lang.reflect.Method)]]>
+                <![CDATA[public void com.nopcommerce.grid.Level_23_Grid.User_01_Register(java.lang.reflect.Method)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- User_01_Register -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.grid.Level_23_Local@475835b1]" started-at="2023-11-06T03:43:51Z" name="afterClass" finished-at="2023-11-06T03:43:53Z" duration-ms="1610" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.grid.Level_23_Grid@475835b1]" started-at="2023-11-06T04:59:09Z" name="afterClass" finished-at="2023-11-06T04:59:12Z" duration-ms="2412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.grid.Level_23_Local -->
+      </class> <!-- com.nopcommerce.grid.Level_23_Grid -->
     </test> <!-- Run on Firefox -->
   </suite> <!-- NopCommerce -->
 </testng-results>
